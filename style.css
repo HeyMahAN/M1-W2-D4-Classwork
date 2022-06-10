@@ -8,7 +8,7 @@ body {
 }
 
 .logo {
-    font-family: 'Merriweather';
+    font-family: 'Merriweather', sans-serif;
     font-size: 17pt;
 }
 
@@ -39,7 +39,7 @@ nav ul {
     list-style: none;
     width: 60%;
     justify-content: space-evenly;
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
 }
 
 .active {
@@ -67,7 +67,7 @@ nav ul svg {
 
 .profile-name {
     color: #fff;
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
     font-weight: 600;
 }
 
@@ -82,7 +82,7 @@ nav ul svg {
 .body-content-home div:first-child p:nth-child(3) {
     color: #fff;
     text-align: center;
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
     margin-top: .5em;
 }
 
@@ -105,7 +105,7 @@ div:first-child .social-icon {
 
 .hire-btn {
     background-color: #eb4b60;
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
     font-size: 12pt;
     color: #fff;
     padding: 0.5em 2.5em;
@@ -136,7 +136,7 @@ div:first-child .social-icon {
 .scroll-txt {
     margin-top: 5em;
     color: #fff;
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
     font-size: 9pt;
     text-align: center;
     margin-bottom: .5em;
@@ -173,7 +173,7 @@ div:first-child .social-icon {
     height: max-content;
     width: 70%;
     color: #fff;
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
     font-size: 12pt;
     border-radius: 1.5em;
 }
@@ -238,7 +238,7 @@ div:first-child .social-icon {
     color: #fff;
     background: #22a7b6a2;
     width: max-content;
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
     font-size: 12pt;
     border-radius: .5em;
     line-height: 2;
@@ -301,13 +301,13 @@ div:first-child .social-icon {
   }
   .index-status-1 h3{
       font-size: 15pt;
-      font-family: 'poppins';
+      font-family: 'poppins', sans-serif;
       font-weight: 500;
       margin-top: .5em;
   }
   .index-status-1 p{
       font-size: 12pt;
-      font-family: 'poppins';
+      font-family: 'poppins', sans-serif;
       font-weight: 500;
   }
   .services-box{
@@ -322,7 +322,7 @@ div:first-child .social-icon {
       display: flex;
       justify-content: space-evenly;
       color: #fff;
-      font-family: 'poppins';
+      font-family: 'poppins', sans-serif;
       margin-top: 2em;
   }
   .index-about-section .sb1{
@@ -350,7 +350,7 @@ div:first-child .social-icon {
 }
 .foot-p{
     color: #fff;
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
     text-align: center;
     margin-bottom: 2em;
 }
@@ -361,4 +361,135 @@ div:first-child .social-icon {
 .foot-p span a:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+.pricing-box{
+    height: max-content;
+    width: 23em;
+    background: white;
+    border-radius: .5em;
+    display: flex;
+    text-align: center;
+}
+.index-about-section .pp1{
+    background: #55038484;
+    padding: 1em;
+}
+.index-about-section .pp2{
+  background: #55038484;
+  padding: 3em 0;
+  /* height: 26em;
+  align-items: center; */
+  border-radius: 1.5em;
+}
+.index-about-section .pp3{
+  background: #55038484;
+  padding: 1em;
+}
+.pp1 img, .pp2 img, .pp3 img{
+    height: 7em;
+    width: auto;
+}
+.pp1 h3, .pp2 h3, .pp3 h3{
+    font-weight: 600;
+    margin: .5em 0;
+}
+.pp1 p, .pp2 p, .pp3 p{
+    font-size: 11pt;
+    font-family: 'Poppins', sans-serif;
+}
+.pricing-feature{
+    font-weight: 600;
+    margin-top: .5em;
+}
+.pricing-dollar{
+    margin-top: .5em;
+}
+.pricing-dollar span{
+    font-size: 30pt;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.index-pricing-section{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    margin-top: 2em;
+}
+.pricing-btn{
+    font-size: 12pt;
+    font-weight: 600;
+    padding: .5em 1.8em;
+    background: #eb4b60;
+    color: #fff;
+    border-radius: 2em;
+    border: 2px solid transparent;
+    margin-top: 1em;
+}
+.pricing-btn:hover{
+    background: #eb4b60e0;
+}
+.experience-status{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-family: 'poppins';
+}
+.experience-status .pricing-box{
+    width: 50%;
+    margin: 1em;
+}
+.experience-status .pricing-box .pricing-box-content span{
+    display: inline-block;
+    height: 100%;
+    width: .2em;
+    background: #eb4b60;
+}
+.experience-status .pricing-box .pricing-box-content{
+    display: flex;
+}
+.experience-status .pricing-box .pricing-box-content span .fas{
+    color: #eb4b60;
+    margin-left: -.43em;
+    display: block;
+}
+.exp-1{
+    margin-top: .1em;
+    margin-bottom: 9em;
+}
+.exp-2{
+    margin-bottom: 9em;
+}
+.experience-details{
+    margin-left: 1em;
+    display: block !important;
+}
+.experience-details-1, .experience-details-2{
+    display: block !important;
+    text-align: left;
+    margin-bottom: 2em;
+}
+.experience-details-1 h1, .experience-details-2 h1, .experience-details-3 h1{
+    font-size: 14pt;
+    font-weight: 600;
+    margin: .5em 0;
+}
+.experience-details-1 p, .experience-details-2 p, .experience-details-2 p{
+    font-weight: 300;
+    font-size: 10pt;
+}
+.experience-details-3{
+    display: block !important;
+    text-align: left;
+}
+.review-margin{
+    margin-top: -6em;
+}
+.pricing-foot{
+    background: #55038484;
+    padding: 1em;
+    width: 65%;
+    margin: 1em auto;
+    border-radius: 1em;
+    color: #fff;
 }
