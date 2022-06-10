@@ -41,6 +41,9 @@ nav ul {
     justify-content: space-evenly;
     font-family: 'poppins', sans-serif;
 }
+nav ul a{
+    text-decoration: none;
+}
 
 .active {
     border-bottom: 2px solid #eb4b60;
@@ -130,7 +133,7 @@ div:first-child .social-icon {
     fill: #fff;
     height: 1.5em;
     width: 1.5em;
-    margin-left: 7.5em;
+    margin-left: 8.5em;
 }
 
 .scroll-txt {
